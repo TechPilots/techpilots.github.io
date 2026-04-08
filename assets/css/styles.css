@@ -1,14 +1,14 @@
 ﻿:root {
   color-scheme: only light;
-  --navy: #0b1b2b;
-  --deep: #0f2438;
-  --sea: #1f6e8c;
-  --mint: #62d2a2;
-  --sun: #f7c04a;
-  --sand: #f9f4ec;
+  --navy: #0e2a4a;
+  --deep: #12335a;
+  --sea: #1c4f8a;
+  --mint: #9ad67d;
+  --sun: #f28c28;
+  --sand: #fff8ef;
   --white: #ffffff;
-  --text: #122334;
-  --muted: #4d6273;
+  --text: #0e2a4a;
+  --muted: #3d5a78;
   --shadow: 0 24px 60px rgba(8, 23, 36, 0.18);
   --radius: 24px;
 }
@@ -22,7 +22,7 @@
 body {
   font-family: "Space Grotesk", sans-serif;
   color: var(--text);
-  background: radial-gradient(circle at top, #eef6ff 0%, #f7fbff 40%, #fff8ef 100%);
+  background: radial-gradient(circle at top, #ffffff 0%, #fef2e2 45%, #ecf7e7 100%);
   min-height: 100vh;
   line-height: 1.6;
 }
@@ -56,7 +56,7 @@ a {
   position: sticky;
   top: 0;
   backdrop-filter: blur(12px);
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.86);
   z-index: 10;
   border-bottom: 1px solid rgba(15, 36, 56, 0.1);
 }
@@ -91,7 +91,7 @@ a {
 }
 
 .cta {
-  background: var(--navy);
+  background: var(--sun);
   color: var(--white);
   padding: 10px 18px;
   border-radius: 999px;
@@ -145,7 +145,7 @@ a {
   gap: 8px;
   padding: 12px 22px;
   border-radius: 999px;
-  background: var(--navy);
+  background: var(--sun);
   color: var(--white);
   font-weight: 600;
   box-shadow: var(--shadow);
@@ -154,7 +154,7 @@ a {
 .button.ghost {
   background: transparent;
   color: var(--navy);
-  border: 1px solid rgba(12, 27, 43, 0.2);
+  border: 1px solid rgba(14, 42, 74, 0.2);
   box-shadow: none;
 }
 
@@ -203,8 +203,8 @@ a {
 }
 
 .pill {
-  background: rgba(31, 110, 140, 0.1);
-  color: var(--sea);
+  background: rgba(154, 214, 125, 0.2);
+  color: #2f5f3e;
   padding: 6px 14px;
   border-radius: 999px;
   font-size: 0.85rem;
@@ -218,7 +218,7 @@ a {
   width: 140px;
   height: 140px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(98, 210, 162, 0.4), transparent 60%);
+  background: radial-gradient(circle, rgba(154, 214, 125, 0.45), transparent 60%);
 }
 
 .section-title {
@@ -257,7 +257,7 @@ a {
 
 .services {
   padding: 70px 0;
-  background: linear-gradient(120deg, rgba(11, 27, 43, 0.04), rgba(98, 210, 162, 0.08));
+  background: linear-gradient(120deg, rgba(242, 140, 40, 0.08), rgba(154, 214, 125, 0.18));
 }
 
 .service-grid {
@@ -267,7 +267,7 @@ a {
 }
 
 .service {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.84);
   padding: 24px;
   border-radius: 18px;
   border: 1px solid rgba(15, 36, 56, 0.08);
@@ -305,7 +305,7 @@ a {
 
 .stats {
   padding: 60px 0;
-  background: var(--deep);
+  background: linear-gradient(135deg, #0e2a4a 0%, #1c4f8a 100%);
   color: var(--white);
 }
 
@@ -325,7 +325,7 @@ a {
 }
 
 .contact-card {
-  background: var(--navy);
+  background: var(--deep);
   color: var(--white);
   padding: 40px;
   border-radius: var(--radius);
