@@ -66,6 +66,7 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 20px 0;
+  gap: 16px;
 }
 
 .logo {
@@ -79,6 +80,34 @@ a {
   gap: 24px;
   align-items: center;
   font-size: 0.95rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.social-link {
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(242, 140, 40, 0.12);
+  color: var(--navy);
+  font-weight: 700;
+  font-size: 0.7rem;
+  letter-spacing: 0.5px;
+  border: 1px solid rgba(242, 140, 40, 0.3);
+  text-transform: uppercase;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.social-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(14, 42, 74, 0.15);
 }
 
 .nav-links a {
@@ -381,6 +410,11 @@ a {
 @media (max-width: 720px) {
   .nav-links {
     display: none;
+  }
+
+  .social-links {
+    flex-wrap: wrap;
+    justify-content: flex-end;
   }
 
   .hero {
