@@ -1,0 +1,67 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b1b2b" />
+    <meta
+      name="description"
+      content="{{ site.description }}"
+    />
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}" />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="grain"></div>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="logo">{{ site.title }}</div>
+        <nav class="nav-links">
+          <a href="#work">Work</a>
+          <a href="#services">Services</a>
+          <a href="#process">Process</a>
+          <a href="#contact" class="cta">Let us talk</a>
+        </nav>
+      </div>
+    </header>
+
+    {{ content }}
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="logo">{{ site.title }}</div>
+          <p>
+            A studio of strategists, designers, and engineers helping teams fly
+            faster.
+          </p>
+        </div>
+        <div>
+          <p class="footer-title">Contact</p>
+          <p>{{ site.email }}</p>
+          <p>San Francisco · New York · Remote</p>
+        </div>
+        <div>
+          <p class="footer-title">Follow</p>
+          <p>LinkedIn</p>
+          <p>Dribbble</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="{{ "/assets/js/script.js" | relative_url }}"></script>
+  </body>
+</html>

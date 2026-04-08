@@ -1,0 +1,16 @@
+﻿# Site settings
+title: TechPilots
+email: hello@techpilots.com
+description: TechPilots partners with teams to launch reliable, human-centered digital products.
+baseurl: ""
+url: "https://techpilots.github.io"
+
+# Build settings
+markdown: kramdown
+
+theme: null
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
