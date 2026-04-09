@@ -89,8 +89,8 @@ a {
 }
 
 .social-link {
-  width: 30px;
-  height: 30px;
+  width: 34px;
+  height: 34px;
   border-radius: 999px;
   display: inline-flex;
   align-items: center;
@@ -106,8 +106,8 @@ a {
 }
 
 .social-link svg {
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
   fill: currentColor;
 }
 
